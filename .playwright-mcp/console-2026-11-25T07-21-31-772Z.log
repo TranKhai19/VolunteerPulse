@@ -1,0 +1,9 @@
+[     234ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/chunk-PLRMVPH5.js?v=3ab8998c:22165
+[     336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1
+[     336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/scenes:1
+[     336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1
+[     336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/scenes:1
+[   10344ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1
+[   10345ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1
+[   20355ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1
+[   20357ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8001/health:1

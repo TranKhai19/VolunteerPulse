@@ -1,0 +1,17 @@
+{
+  "name": "VolunteerPulse — Điều phối Tình nguyện Vùng cao",
+  "short_name": "VolunteerPulse",
+  "description": "Nền tảng điều phối tình nguyện vùng cao, kết nối Đoàn Xã & ĐH Duy Tân, hỗ trợ Offline 4G và minh bạch tài chính.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F5F2",
+  "theme_color": "#102824",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

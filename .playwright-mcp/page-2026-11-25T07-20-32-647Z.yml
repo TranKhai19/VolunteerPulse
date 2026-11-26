@@ -1,0 +1,353 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: VolunteerPulse
+            - generic [ref=e12]: TìnhNguyệnMap
+          - generic [ref=e13]: Chiến dịch Xuân Tình Nguyện Quảng Nam 2026 • Đoàn ĐH Duy Tân
+        - generic [ref=e14]:
+          - button "Trực tuyến 4G" [ref=e15] [cursor=pointer]
+          - generic [ref=e21]: "Mã hồ sơ: A-002"
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - button "Bản đồ chiến dịch" [ref=e24] [cursor=pointer]
+          - button "Tối ưu ngân sách" [ref=e27] [cursor=pointer]
+          - button "Ghép nhân sự AI" [active] [ref=e30] [cursor=pointer]
+          - button "Xác thực hiện trường" [ref=e36] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e40] [cursor=pointer]
+    - main [ref=e44]:
+      - generic [ref=e556]:
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - heading "Ghép nhân sự thông minh (BGE-M3 Embedding + pgvector)" [level=2] [ref=e565]
+            - paragraph [ref=e566]:
+              - text: Tự động đối khớp hồ sơ kỹ năng, kinh nghiệm vùng cao và cân bằng tổ công tác cho
+              - strong [ref=e567]: 12 tình nguyện viên
+              - text: trên
+              - strong [ref=e568]: 7 điểm bản
+              - text: ". Độ phù hợp trung bình:"
+              - generic [ref=e569]: 88%
+              - text: .
+          - generic [ref=e570]:
+            - combobox [ref=e571]:
+              - option "Tất cả điểm bản (12 TNV)" [selected]
+              - option "Thôn 3 (2 TNV)"
+              - option "Điểm trường Tắk Pỏ (1 TNV)"
+              - option "Thôn A Rớch (1 TNV)"
+              - option "Thôn Đăk Rế (2 TNV)"
+              - option "Thôn Bhlô Bền (2 TNV)"
+              - option "Thôn 2 (2 TNV)"
+              - option "Thôn Tà Lang (2 TNV)"
+            - button "Đăng ký TNV mới" [ref=e572] [cursor=pointer]
+        - generic [ref=e576]: "Bảo vệ dữ liệu cá nhân (Supabase RLS): Số điện thoại và CCCD tình nguyện viên được ẩn một phần trên giao diện công khai."
+        - generic [ref=e581]:
+          - generic [ref=e582]:
+            - generic [ref=e583]:
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - heading "Phạm Hoàng Nam" [level=3] [ref=e586]
+                  - generic [ref=e587]: LCĐ Trường Y Dược (ĐH Duy Tân) • 30211451890
+                - generic [ref=e588]:
+                  - generic [ref=e589]: 99%
+                  - generic [ref=e593]: cos=0.999
+              - generic [ref=e594]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]: "Phân công điểm bản:"
+                  - strong [ref=e597]: Thôn Đăk Rế
+                - generic [ref=e598]:
+                  - generic [ref=e599]: "Vai trò đề xuất:"
+                  - strong [ref=e600]: Y tế & Sơ cứu
+              - generic [ref=e601]:
+                - generic [ref=e602]: Y tế & Sơ cứu
+                - generic [ref=e603]: Hậu cần & Vận chuyển
+                - generic [ref=e604]: Lái xe địa hình
+              - list [ref=e605]:
+                - listitem [ref=e606]: "Khớp trực tiếp kỹ năng: Y tế & Sơ cứu, Hậu cần & Vận chuyển, Lái xe địa hình"
+                - listitem [ref=e607]: Đã đi 4 chuyến vùng cao — phù hợp địa hình mức 8.5/10
+                - listitem [ref=e608]: Có bằng lái & kinh nghiệm di chuyển đường đèo dốc
+            - generic [ref=e609]:
+              - generic [ref=e610]: "Kinh nghiệm: 4 chuyến vùng cao"
+              - generic [ref=e611]: 0988 *** 412
+          - generic [ref=e612]:
+            - generic [ref=e613]:
+              - generic [ref=e614]:
+                - generic [ref=e615]:
+                  - heading "Trần Ngọc Bảo Trâm" [level=3] [ref=e616]
+                  - generic [ref=e617]: LCĐ Trường Ngoại ngữ – XHNV • 31211209874
+                - generic [ref=e618]:
+                  - generic [ref=e619]: 99%
+                  - generic [ref=e623]: cos=0.988
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: "Phân công điểm bản:"
+                  - strong [ref=e627]: Thôn Tà Lang
+                - generic [ref=e628]:
+                  - generic [ref=e629]: "Vai trò đề xuất:"
+                  - strong [ref=e630]: Dạy học & Sinh hoạt thiếu nhi
+              - generic [ref=e631]:
+                - generic [ref=e632]: Dạy học & Sinh hoạt thiếu nhi
+                - generic [ref=e633]: Truyền thông & Ghi hình
+              - list [ref=e634]:
+                - listitem [ref=e635]: "Khớp trực tiếp kỹ năng: Dạy học & Sinh hoạt thiếu nhi, Truyền thông & Ghi hình"
+            - generic [ref=e636]:
+              - generic [ref=e637]: "Kinh nghiệm: 3 chuyến vùng cao"
+              - generic [ref=e638]: 0775 *** 930
+          - generic [ref=e639]:
+            - generic [ref=e640]:
+              - generic [ref=e641]:
+                - generic [ref=e642]:
+                  - heading "Nguyễn Thảo Vy" [level=3] [ref=e643]
+                  - generic [ref=e644]: LCĐ Khoa Truyền thông & QTKD • 32211610982
+                - generic [ref=e645]:
+                  - generic [ref=e646]: 99%
+                  - generic [ref=e650]: cos=0.994
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - generic [ref=e653]: "Phân công điểm bản:"
+                  - strong [ref=e654]: Thôn Tà Lang
+                - generic [ref=e655]:
+                  - generic [ref=e656]: "Vai trò đề xuất:"
+                  - strong [ref=e657]: Truyền thông & Ghi hình
+              - generic [ref=e658]:
+                - generic [ref=e659]: Truyền thông & Ghi hình
+                - generic [ref=e660]: Dạy học & Sinh hoạt thiếu nhi
+              - list [ref=e661]:
+                - listitem [ref=e662]: "Khớp trực tiếp kỹ năng: Truyền thông & Ghi hình, Dạy học & Sinh hoạt thiếu nhi"
+            - generic [ref=e663]:
+              - generic [ref=e664]: "Kinh nghiệm: 2 chuyến vùng cao"
+              - generic [ref=e665]: 0906 *** 774
+          - generic [ref=e666]:
+            - generic [ref=e667]:
+              - generic [ref=e668]:
+                - generic [ref=e669]:
+                  - heading "Huỳnh Tấn Lộc" [level=3] [ref=e670]
+                  - generic [ref=e671]: LCĐ Trường Y Dược (ĐH Duy Tân) • 30211459012
+                - generic [ref=e672]:
+                  - generic [ref=e673]: 96%
+                  - generic [ref=e677]: cos=0.9
+              - generic [ref=e678]:
+                - generic [ref=e679]:
+                  - generic [ref=e680]: "Phân công điểm bản:"
+                  - strong [ref=e681]: Thôn Đăk Rế
+                - generic [ref=e682]:
+                  - generic [ref=e683]: "Vai trò đề xuất:"
+                  - strong [ref=e684]: Y tế & Sơ cứu
+              - generic [ref=e685]:
+                - generic [ref=e686]: Y tế & Sơ cứu
+                - generic [ref=e687]: Hậu cần & Vận chuyển
+              - list [ref=e688]:
+                - listitem [ref=e689]: "Khớp trực tiếp kỹ năng: Y tế & Sơ cứu, Hậu cần & Vận chuyển"
+                - listitem [ref=e690]: Có bằng lái & kinh nghiệm di chuyển đường đèo dốc
+            - generic [ref=e691]:
+              - generic [ref=e692]: "Kinh nghiệm: 3 chuyến vùng cao"
+              - generic [ref=e693]: 0972 *** 118
+          - generic [ref=e694]:
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - generic [ref=e697]:
+                  - heading "Đặng Quốc Bảo" [level=3] [ref=e698]
+                  - generic [ref=e699]: LCĐ Khoa Kiến trúc & Xây dựng • 31211502344
+                - generic [ref=e700]:
+                  - generic [ref=e701]: 92%
+                  - generic [ref=e705]: cos=0.861
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - generic [ref=e708]: "Phân công điểm bản:"
+                  - strong [ref=e709]: Thôn 2
+                - generic [ref=e710]:
+                  - generic [ref=e711]: "Vai trò đề xuất:"
+                  - strong [ref=e712]: Hậu cần & Vận chuyển
+              - generic [ref=e713]:
+                - generic [ref=e714]: Hậu cần & Vận chuyển
+                - generic [ref=e715]: Lái xe địa hình
+                - generic [ref=e716]: Kỹ thuật & Điện mặt trời
+              - list [ref=e717]:
+                - listitem [ref=e718]: "Khớp trực tiếp kỹ năng: Hậu cần & Vận chuyển, Kỹ thuật & Điện mặt trời"
+                - listitem [ref=e719]: Đã đi 5 chuyến vùng cao — phù hợp địa hình mức 8.1/10
+            - generic [ref=e720]:
+              - generic [ref=e721]: "Kinh nghiệm: 5 chuyến vùng cao"
+              - generic [ref=e722]: 0398 *** 501
+          - generic [ref=e723]:
+            - generic [ref=e724]:
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - heading "Kỳ Nguyễn Quốc Hưng" [level=3] [ref=e727]
+                  - generic [ref=e728]: LCĐ Khoa CNPM Việt - Mỹ (CMU) • 31211149665
+                - generic [ref=e729]:
+                  - generic [ref=e730]: 91%
+                  - generic [ref=e734]: cos=0.849
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]: "Phân công điểm bản:"
+                  - strong [ref=e738]: Thôn 2
+                - generic [ref=e739]:
+                  - generic [ref=e740]: "Vai trò đề xuất:"
+                  - strong [ref=e741]: Kỹ thuật & Điện mặt trời
+              - generic [ref=e742]:
+                - generic [ref=e743]: Kỹ thuật & Điện mặt trời
+                - generic [ref=e744]: Truyền thông & Ghi hình
+                - generic [ref=e745]: Hậu cần & Vận chuyển
+              - list [ref=e746]:
+                - listitem [ref=e747]: "Khớp trực tiếp kỹ năng: Kỹ thuật & Điện mặt trời, Hậu cần & Vận chuyển"
+                - listitem [ref=e748]: Đã đi 4 chuyến vùng cao — phù hợp địa hình mức 8.1/10
+            - generic [ref=e749]:
+              - generic [ref=e750]: "Kinh nghiệm: 4 chuyến vùng cao"
+              - generic [ref=e751]: 0905 *** 656
+          - generic [ref=e752]:
+            - generic [ref=e753]:
+              - generic [ref=e754]:
+                - generic [ref=e755]:
+                  - heading "Khải Trần Duy" [level=3] [ref=e756]
+                  - generic [ref=e757]: LCĐ Khoa Khoa học Máy tính • 32311570033
+                - generic [ref=e758]:
+                  - generic [ref=e759]: 88%
+                  - generic [ref=e763]: cos=0.824
+              - generic [ref=e764]:
+                - generic [ref=e765]:
+                  - generic [ref=e766]: "Phân công điểm bản:"
+                  - strong [ref=e767]: Thôn 3
+                - generic [ref=e768]:
+                  - generic [ref=e769]: "Vai trò đề xuất:"
+                  - strong [ref=e770]: Hậu cần & Vận chuyển
+              - generic [ref=e771]:
+                - generic [ref=e772]: Hậu cần & Vận chuyển
+                - generic [ref=e773]: Kỹ thuật & Điện mặt trời
+                - generic [ref=e774]: Lái xe địa hình
+              - list [ref=e775]:
+                - listitem [ref=e776]: "Khớp trực tiếp kỹ năng: Hậu cần & Vận chuyển, Lái xe địa hình"
+                - listitem [ref=e777]: Đã đi 6 chuyến vùng cao — phù hợp địa hình mức 9.6/10
+                - listitem [ref=e778]: Có bằng lái & kinh nghiệm di chuyển đường đèo dốc
+            - generic [ref=e779]:
+              - generic [ref=e780]: "Kinh nghiệm: 6 chuyến vùng cao"
+              - generic [ref=e781]: 0931 *** 828
+          - generic [ref=e782]:
+            - generic [ref=e783]:
+              - generic [ref=e784]:
+                - generic [ref=e785]:
+                  - heading "Nguyễn Hữu Phát Đạt" [level=3] [ref=e786]
+                  - generic [ref=e787]: LCĐ Khoa CNPM Việt - Mỹ (CMU) • 31211147680
+                - generic [ref=e788]:
+                  - generic [ref=e789]: 88%
+                  - generic [ref=e793]: cos=0.822
+              - generic [ref=e794]:
+                - generic [ref=e795]:
+                  - generic [ref=e796]: "Phân công điểm bản:"
+                  - strong [ref=e797]: Điểm trường Tắk Pỏ
+                - generic [ref=e798]:
+                  - generic [ref=e799]: "Vai trò đề xuất:"
+                  - strong [ref=e800]: Lái xe địa hình
+              - generic [ref=e801]:
+                - generic [ref=e802]: Hậu cần & Vận chuyển
+                - generic [ref=e803]: Lái xe địa hình
+                - generic [ref=e804]: Truyền thông & Ghi hình
+              - list [ref=e805]:
+                - listitem [ref=e806]: "Khớp trực tiếp kỹ năng: Lái xe địa hình, Truyền thông & Ghi hình"
+                - listitem [ref=e807]: Đã đi 5 chuyến vùng cao — phù hợp địa hình mức 9.2/10
+                - listitem [ref=e808]: Có bằng lái & kinh nghiệm di chuyển đường đèo dốc
+            - generic [ref=e809]:
+              - generic [ref=e810]: "Kinh nghiệm: 5 chuyến vùng cao"
+              - generic [ref=e811]: 0336 *** 192
+          - generic [ref=e812]:
+            - generic [ref=e813]:
+              - generic [ref=e814]:
+                - generic [ref=e815]:
+                  - heading "Liễu Hiệp Phát" [level=3] [ref=e816]
+                  - generic [ref=e817]: LCĐ Khoa Công nghệ Thông tin • 31211165821
+                - generic [ref=e818]:
+                  - generic [ref=e819]: 79%
+                  - generic [ref=e823]: cos=0.729
+              - generic [ref=e824]:
+                - generic [ref=e825]:
+                  - generic [ref=e826]: "Phân công điểm bản:"
+                  - strong [ref=e827]: Thôn A Rớch
+                - generic [ref=e828]:
+                  - generic [ref=e829]: "Vai trò đề xuất:"
+                  - strong [ref=e830]: Kỹ thuật & Điện mặt trời
+              - generic [ref=e831]:
+                - generic [ref=e832]: Kỹ thuật & Điện mặt trời
+                - generic [ref=e833]: Dạy học & Sinh hoạt thiếu nhi
+                - generic [ref=e834]: Hậu cần & Vận chuyển
+              - list [ref=e835]:
+                - listitem [ref=e836]: "Khớp trực tiếp kỹ năng: Kỹ thuật & Điện mặt trời, Hậu cần & Vận chuyển"
+            - generic [ref=e837]:
+              - generic [ref=e838]: "Kinh nghiệm: 3 chuyến vùng cao"
+              - generic [ref=e839]: 0326 *** 369
+          - generic [ref=e840]:
+            - generic [ref=e841]:
+              - generic [ref=e842]:
+                - generic [ref=e843]:
+                  - heading "Võ Đình Khoa" [level=3] [ref=e844]
+                  - generic [ref=e845]: LCĐ Khoa Điện – Điện tử • 30211340118
+                - generic [ref=e846]:
+                  - generic [ref=e847]: 76%
+                  - generic [ref=e851]: cos=0.702
+              - generic [ref=e852]:
+                - generic [ref=e853]:
+                  - generic [ref=e854]: "Phân công điểm bản:"
+                  - strong [ref=e855]: Thôn 3
+                - generic [ref=e856]:
+                  - generic [ref=e857]: "Vai trò đề xuất:"
+                  - strong [ref=e858]: Lái xe địa hình
+              - generic [ref=e859]:
+                - generic [ref=e860]: Kỹ thuật & Điện mặt trời
+                - generic [ref=e861]: Lái xe địa hình
+              - list [ref=e862]:
+                - listitem [ref=e863]: "Khớp trực tiếp kỹ năng: Lái xe địa hình"
+                - listitem [ref=e864]: Đã đi 4 chuyến vùng cao — phù hợp địa hình mức 9.6/10
+                - listitem [ref=e865]: Có bằng lái & kinh nghiệm di chuyển đường đèo dốc
+            - generic [ref=e866]:
+              - generic [ref=e867]: "Kinh nghiệm: 4 chuyến vùng cao"
+              - generic [ref=e868]: 0935 *** 617
+          - generic [ref=e869]:
+            - generic [ref=e870]:
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - heading "Lê Thị Minh Thư" [level=3] [ref=e873]
+                  - generic [ref=e874]: LCĐ Trường Y Dược (ĐH Duy Tân) • 29211450211
+                - generic [ref=e875]:
+                  - generic [ref=e876]: 73%
+                  - generic [ref=e880]: cos=0.671
+              - generic [ref=e881]:
+                - generic [ref=e882]:
+                  - generic [ref=e883]: "Phân công điểm bản:"
+                  - strong [ref=e884]: Thôn Bhlô Bền
+                - generic [ref=e885]:
+                  - generic [ref=e886]: "Vai trò đề xuất:"
+                  - strong [ref=e887]: Dạy học & Sinh hoạt thiếu nhi
+              - generic [ref=e888]:
+                - generic [ref=e889]: Y tế & Sơ cứu
+                - generic [ref=e890]: Dạy học & Sinh hoạt thiếu nhi
+              - list [ref=e891]:
+                - listitem [ref=e892]: "Khớp trực tiếp kỹ năng: Dạy học & Sinh hoạt thiếu nhi"
+            - generic [ref=e893]:
+              - generic [ref=e894]: "Kinh nghiệm: 5 chuyến vùng cao"
+              - generic [ref=e895]: 0914 *** 209
+          - generic [ref=e896]:
+            - generic [ref=e897]:
+              - generic [ref=e898]:
+                - generic [ref=e899]:
+                  - heading "Bùi Thị Thanh Hằng" [level=3] [ref=e900]
+                  - generic [ref=e901]: LCĐ Trường Ngoại ngữ – XHNV • 31211214450
+                - generic [ref=e902]:
+                  - generic [ref=e903]: 72%
+                  - generic [ref=e907]: cos=0.618
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - generic [ref=e910]: "Phân công điểm bản:"
+                  - strong [ref=e911]: Thôn Bhlô Bền
+                - generic [ref=e912]:
+                  - generic [ref=e913]: "Vai trò đề xuất:"
+                  - strong [ref=e914]: Dạy học & Sinh hoạt thiếu nhi
+              - generic [ref=e915]:
+                - generic [ref=e916]: Dạy học & Sinh hoạt thiếu nhi
+                - generic [ref=e917]: Hậu cần & Vận chuyển
+              - list [ref=e918]:
+                - listitem [ref=e919]: "Khớp trực tiếp kỹ năng: Dạy học & Sinh hoạt thiếu nhi"
+            - generic [ref=e920]:
+              - generic [ref=e921]: "Kinh nghiệm: 2 chuyến vùng cao"
+              - generic [ref=e922]: 0349 *** 882
+    - contentinfo [ref=e212]: VolunteerPulse (TìnhNguyệnMap) • Cuộc thi Sáng tạo cùng AI 2026 – Thành Đoàn Đà Nẵng & BCH Đoàn Đại học Duy Tân • Nhóm A-002 (Khải Trần Duy, Kỳ Nguyễn Quốc Hưng, Nguyễn Hữu Phát Đạt, Liễu Hiệp Phát)
+  - alert [ref=e213]
+  - generic [aria-hidden] [ref=e555]: 120%

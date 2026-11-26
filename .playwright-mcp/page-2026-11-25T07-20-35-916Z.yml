@@ -1,0 +1,100 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: VolunteerPulse
+            - generic [ref=e12]: TìnhNguyệnMap
+          - generic [ref=e13]: Chiến dịch Xuân Tình Nguyện Quảng Nam 2026 • Đoàn ĐH Duy Tân
+        - generic [ref=e14]:
+          - button "Trực tuyến 4G" [ref=e15] [cursor=pointer]
+          - generic [ref=e21]: "Mã hồ sơ: A-002"
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - button "Bản đồ chiến dịch" [ref=e24] [cursor=pointer]
+          - button "Tối ưu ngân sách" [ref=e27] [cursor=pointer]
+          - button "Ghép nhân sự AI" [ref=e30] [cursor=pointer]
+          - button "Xác thực hiện trường" [active] [ref=e36] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e40] [cursor=pointer]
+    - main [ref=e44]:
+      - generic [ref=e923]:
+        - generic [ref=e924]:
+          - generic [ref=e930]:
+            - strong [ref=e931]: Kết nối trực tuyến ổn định (4G / Cloud Sync)
+            - text: Hệ thống sẵn sàng đồng bộ báo cáo hiện trường lên Supabase PostGIS.
+          - button "Mô phỏng mất sóng 4G" [ref=e933] [cursor=pointer]
+        - generic [ref=e934]:
+          - generic [ref=e935]:
+            - generic [ref=e936]:
+              - heading "Gửi minh chứng hiện trường (GPS + AI Scan)" [level=2] [ref=e941]
+              - generic [ref=e942]:
+                - generic [ref=e943]: Điểm bản bàn giao
+                - combobox [ref=e944]:
+                  - option "Thôn 3, Xã Trà Linh (Nam Trà My) • Mất 4G"
+                  - option "Điểm trường Tắk Pỏ, Xã Trà Tập (Nam Trà My) • Mất 4G"
+                  - option "Thôn A Rớch, Xã A Xan (Tây Giang) • Mất 4G" [selected]
+                  - option "Thôn Đăk Rế, Xã Phước Lộc (Phước Sơn)"
+                  - option "Thôn Bhlô Bền, Xã Sông Kôn (Đông Giang)"
+                  - option "Thôn 2, Xã Trà Don (Nam Trà My) • Mất 4G"
+                  - option "Thôn Tà Lang, Xã Hòa Bắc (Hòa Vang)"
+              - generic [ref=e945]:
+                - generic [ref=e946]:
+                  - generic [ref=e947]: Tình nguyện viên chụp
+                  - textbox [ref=e948]: Kỳ Nguyễn Quốc Hưng
+                - generic [ref=e949]:
+                  - generic [ref=e950]: Loại minh chứng
+                  - combobox [ref=e951]:
+                    - option "Ảnh trao quà (YOLOv11)" [selected]
+                    - option "Hóa đơn / Biên bản (PaddleOCR)"
+              - generic [ref=e952]:
+                - generic [ref=e953]: Tải ảnh hiện trường / hóa đơn (tùy chọn)
+                - generic [ref=e954] [cursor=pointer]: Chọn ảnh JPG/PNG hoặc dùng ảnh mẫu
+              - button "Xác thực GPS & Phân tích AI ngay" [ref=e959] [cursor=pointer]
+            - generic [ref=e965]:
+              - generic [ref=e966]: Danh sách biên bản hiện trường (3)
+              - generic [ref=e967]:
+                - button "Thôn 3, Xã Trà Linh Trưởng đoàn đã duyệt Khải Trần Duy 10:42:18" [ref=e968] [cursor=pointer]:
+                  - generic [ref=e969]:
+                    - strong [ref=e970]: Thôn 3, Xã Trà Linh
+                    - generic [ref=e971]: Trưởng đoàn đã duyệt
+                  - generic [ref=e972]:
+                    - generic [ref=e973]: Khải Trần Duy
+                    - generic [ref=e974]: 10:42:18
+                - button "Điểm trường Tắk Pỏ, Xã Trà Tập Trưởng đoàn đã duyệt Nguyễn Hữu Phát Đạt 14:15:05" [ref=e975] [cursor=pointer]:
+                  - generic [ref=e976]:
+                    - strong [ref=e977]: Điểm trường Tắk Pỏ, Xã Trà Tập
+                    - generic [ref=e978]: Trưởng đoàn đã duyệt
+                  - generic [ref=e979]:
+                    - generic [ref=e980]: Nguyễn Hữu Phát Đạt
+                    - generic [ref=e981]: 14:15:05
+                - button "Thôn Tà Lang, Xã Hòa Bắc Trưởng đoàn đã duyệt Trần Ngọc Bảo Trâm 09:20:44" [ref=e982] [cursor=pointer]:
+                  - generic [ref=e983]:
+                    - strong [ref=e984]: Thôn Tà Lang, Xã Hòa Bắc
+                    - generic [ref=e985]: Trưởng đoàn đã duyệt
+                  - generic [ref=e986]:
+                    - generic [ref=e987]: Trần Ngọc Bảo Trâm
+                    - generic [ref=e988]: 09:20:44
+          - generic [ref=e989]:
+            - generic [ref=e990]:
+              - generic [ref=e991]:
+                - generic [ref=e992]: "Mã biên bản: REP-001 • 2026-01-19 10:42:18 (+07)"
+                - heading "Thôn 3, Xã Trà Linh" [level=3] [ref=e993]
+                - generic [ref=e994]:
+                  - generic [ref=e998]: 15.0219° N, 108.0155° E
+                  - generic [ref=e999]: (sai số ±6.4m • EXIF hợp lệ)
+              - generic [ref=e1000]: Đã công bố minh bạch
+            - generic [ref=e1004]:
+              - img "Khung ảnh phân tích YOLOv11 hiện trường vùng cao" [ref=e1005]:
+                - generic [ref=e1014]: "CAM_EXIF_GPS: 15.0219N, 108.0155E | YOLOv11-m"
+              - generic [ref=e1015]: "Thùng quà #1-12 96%"
+              - generic [ref=e1017]: "Thùng quà #13-28 94%"
+              - generic [ref=e1019]: "Thùng quà #29-48 93%"
+              - generic [ref=e1021]: "Kiện áo ấm #49-68 92%"
+              - generic [ref=e1023]: "YOLOv11 đếm: 68/68 suất (độ tin cậy 94%)"
+            - generic [ref=e1027]:
+              - strong [ref=e1028]: "Đối chiếu chống gian lận (Gemini 3.8 Flash):"
+              - text: Khớp 100% (68/68 suất quà) theo phương án OR-Tools. Tọa độ EXIF cách tâm Thôn 3 Trà Linh 14m, hợp lệ (không có dấu hiệu Fake GPS).
+    - contentinfo [ref=e212]: VolunteerPulse (TìnhNguyệnMap) • Cuộc thi Sáng tạo cùng AI 2026 – Thành Đoàn Đà Nẵng & BCH Đoàn Đại học Duy Tân • Nhóm A-002 (Khải Trần Duy, Kỳ Nguyễn Quốc Hưng, Nguyễn Hữu Phát Đạt, Liễu Hiệp Phát)
+  - alert [ref=e213]
+  - generic [aria-hidden] [ref=e555]: 120%

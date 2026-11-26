@@ -1,0 +1,73 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e136]:
+        - button "VolunteerPulse Đoàn Xã vùng cao & ĐH Duy Tân" [ref=e138] [cursor=pointer]:
+          - generic [ref=e143]:
+            - generic [ref=e144]: VolunteerPulse
+            - generic [ref=e145]: Đoàn Xã vùng cao & ĐH Duy Tân
+        - generic [ref=e146]:
+          - generic [ref=e147]: Vai trò thao tác
+          - radiogroup "Chọn vai trò thao tác" [ref=e148]:
+            - button "Đoàn Xã / Phường" [ref=e149] [cursor=pointer]
+            - button "Đơn vị ĐH Duy Tân" [ref=e152] [cursor=pointer]
+            - button "BCH & Minh bạch" [ref=e155] [cursor=pointer]
+          - paragraph [ref=e158]: Nhận điểm bản, liên quân LCĐ và điều phối
+        - navigation "Điều hướng chính" [ref=e159]:
+          - button "Bản đồ nhu cầu" [ref=e160] [cursor=pointer]
+          - button "Kết nối Đoàn Xã" [ref=e165] [cursor=pointer]
+          - button "Phân bổ ngân sách" [ref=e173] [cursor=pointer]
+          - button "Ghép nhân sự" [ref=e178] [cursor=pointer]
+          - button "Xác thực 2 chiều" [ref=e186] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e192] [cursor=pointer]
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]: Cơ sở dữ liệu
+            - generic [ref=e205]: Supabase PostGIS
+          - generic [ref=e206]:
+            - generic [ref=e207]: Trợ lý AI
+            - generic [ref=e208]: Gemini trực tiếp
+          - button "Kết nối 4G ổn định" [ref=e210] [cursor=pointer]
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic "Bản đồ chiến dịch tình nguyện vùng cao Quảng Nam và Đà Nẵng" [ref=e216]:
+          - button "ĐH Duy Tân" [ref=e217] [cursor=pointer]
+          - generic:
+            - generic [ref=e219]:
+              - button "Zoom in" [ref=e220] [cursor=pointer]: +
+              - button "Zoom out" [ref=e221] [cursor=pointer]: −
+            - generic [ref=e222]:
+              - link "Leaflet" [ref=e223] [cursor=pointer]:
+                - /url: https://leafletjs.com
+              - text: "| © OpenStreetMap contributors | VolunteerPulse"
+        - generic:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "Bản đồ Nhu cầu Đoàn Xã và Kết nối ĐH Duy Tân" [level=1] [ref=e89]
+              - paragraph [ref=e90]:
+                - text: 0 phiếu nhu cầu (0 hộ dân),
+                - strong [ref=e91]: 0 vùng trắng chưa có đơn vị nhận
+            - generic [ref=e92]:
+              - button "Gửi phiếu nhu cầu Xã" [ref=e93] [cursor=pointer]
+              - button "Nhận hỗ trợ" [ref=e95] [cursor=pointer]
+          - generic [ref=e101]:
+            - button "Tất cả" [ref=e102] [cursor=pointer]
+            - button "Vùng trắng chưa ai nhận (0)" [ref=e103] [cursor=pointer]
+            - button "Khẩn cấp" [ref=e104] [cursor=pointer]
+            - button "Ưu tiên cao" [ref=e105] [cursor=pointer]
+            - button "Đang hiện tuyến gom xe" [ref=e106] [cursor=pointer]
+        - generic [ref=e111]:
+          - generic [ref=e112]: Khẩn cấp
+          - generic [ref=e114]: Ưu tiên cao
+          - generic [ref=e116]: Trung bình
+          - generic [ref=e118]: Tuyến gom OR-Tools
+        - complementary [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e126]:
+              - heading "Chưa có phiếu nhu cầu nào" [level=2] [ref=e127]
+              - paragraph [ref=e128]: Cơ sở dữ liệu Supabase PostGIS đang trống. Đoàn Xã/Phường có thể gửi phiếu đề xuất nhu cầu đầu tiên để các đơn vị Đoàn ĐH Duy Tân kết nối.
+            - button "Gửi phiếu nhu cầu đầu tiên" [ref=e129] [cursor=pointer]
+          - generic [ref=e132]:
+            - generic [ref=e133]: Phiếu nhu cầu địa phương
+            - generic [ref=e134]: 0 điểm
+  - alert [ref=e135]

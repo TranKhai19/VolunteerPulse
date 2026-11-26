@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: VolunteerPulse
+            - generic [ref=e12]: TìnhNguyệnMap
+          - generic [ref=e13]: Chiến dịch Xuân Tình Nguyện Quảng Nam 2026 • Đoàn ĐH Duy Tân
+        - generic [ref=e14]:
+          - button "Trực tuyến 4G" [ref=e15] [cursor=pointer]
+          - generic [ref=e21]: "Mã hồ sơ: A-002"
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - button "Bản đồ chiến dịch" [ref=e24] [cursor=pointer]
+          - button "Tối ưu ngân sách" [ref=e27] [cursor=pointer]
+          - button "Ghép nhân sự AI" [ref=e30] [cursor=pointer]
+          - button "Xác thực hiện trường" [ref=e36] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e40] [cursor=pointer]
+    - main [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Điểm bản trong chiến dịch
+            - generic [ref=e49]:
+              - generic [ref=e50]: "7"
+              - generic [ref=e51]: 3/7 đã xác thực GPS
+          - generic [ref=e52]:
+            - generic [ref=e53]: Đối tượng thụ hưởng
+            - generic [ref=e54]:
+              - generic [ref=e55]: 387 hộ
+              - generic [ref=e56]: 499 trẻ em
+          - generic [ref=e57]:
+            - generic [ref=e58]: Điểm vùng sâu mất sóng 4G
+            - generic [ref=e59]:
+              - generic [ref=e60]: 4 điểm
+              - generic [ref=e61]: Cần chế độ Offline Cache
+          - generic [ref=e62]:
+            - generic [ref=e63]: Tuyến đường gom OR-Tools
+            - generic [ref=e64]:
+              - generic [ref=e65]: Quảng Nam
+              - button "Mở bộ tối ưu" [ref=e66] [cursor=pointer]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: "Lọc mức ưu tiên:"
+            - button "Tất cả điểm bản" [ref=e70] [cursor=pointer]
+            - button "Khẩn cấp" [ref=e71] [cursor=pointer]
+            - button "Ưu tiên cao" [ref=e72] [cursor=pointer]
+            - button "Trung bình" [ref=e73] [cursor=pointer]
+          - generic [ref=e74]:
+            - button "Đang hiện lộ trình OR-Tools" [ref=e75] [cursor=pointer]
+            - button "Thêm điểm bản" [ref=e80] [cursor=pointer]
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: Đang tải nền bản đồ địa hình Quảng Nam – Đà Nẵng...
+            - generic [ref=e85]:
+              - generic [ref=e86]: Khẩn cấp (ưu tiên cao nhất)
+              - generic [ref=e88]: Ưu tiên cao
+              - generic [ref=e90]: Trung bình / Gần trục chính
+              - generic [ref=e92]: Lộ trình gom tuyến OR-Tools
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: Khẩn cấp
+                    - generic [ref=e100]: "Độ khó địa hình: 9.6/10"
+                  - heading "Thôn 3, Xã Trà Linh" [level=3] [ref=e101]
+                  - paragraph [ref=e102]:
+                    - text: Huyện Nam Trà My, Quảng Nam • Cách ĐH Duy Tân
+                    - generic [ref=e103]: 142 km
+                - generic [ref=e104]: Đã xác thực GPS
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Tọa độ PostGIS
+                  - generic [ref=e114]: 15.0218° N, 108.0156° E
+                - generic [ref=e115]:
+                  - generic [ref=e116]: Kết nối di động
+                  - generic [ref=e124]: Mất sóng 4G — Bật Offline Cache
+              - generic [ref=e125]:
+                - generic [ref=e126]: Cảnh báo địa hình & tiếp cận
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Sạt lở nhẹ
+                  - generic [ref=e131]: Mất sóng 4G
+                  - generic [ref=e132]: Đường đất trơn trượt
+              - generic [ref=e133]:
+                - generic [ref=e134]: Nhu cầu hiện vật đã khảo sát (68 hộ • 94 trẻ em)
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: Suất quà hộ gia đình
+                    - strong [ref=e138]: 68 suất
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: Áo ấm trẻ em
+                    - strong [ref=e141]: 94 chiếc
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: Túi y tế sơ cứu
+                    - strong [ref=e144]: 24 túi
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: Cước vận chuyển lẻ
+                    - strong [ref=e147]: 5.800.000 đ
+              - generic [ref=e148]:
+                - generic [ref=e149]: Kỹ năng tình nguyện viên cần thiết
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Y tế & Sơ cứu
+                  - generic [ref=e157]: Lái xe địa hình
+                  - generic [ref=e158]: Hậu cần & Vận chuyển
+              - paragraph [ref=e159]: Bản vùng cao gần đỉnh Ngọc Linh, nhiệt độ ban đêm 11°C, cần áo ấm trẻ em và tủ thuốc cơ bản.
+            - generic [ref=e160]:
+              - generic [ref=e161]: Chuyển nhanh điểm bản (7)
+              - generic [ref=e162]:
+                - button "Thôn 3, Xã Trà Linh 142 km" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e164]: Thôn 3, Xã Trà Linh
+                  - generic [ref=e169]: 142 km
+                - button "Điểm trường Tắk Pỏ, Xã Trà Tập 134 km" [ref=e170] [cursor=pointer]:
+                  - generic [ref=e171]: Điểm trường Tắk Pỏ, Xã Trà Tập
+                  - generic [ref=e176]: 134 km
+                - button "Thôn A Rớch, Xã A Xan 128 km" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: Thôn A Rớch, Xã A Xan
+                  - generic [ref=e183]: 128 km
+                - button "Thôn Đăk Rế, Xã Phước Lộc 118 km" [ref=e184] [cursor=pointer]:
+                  - generic [ref=e185]: Thôn Đăk Rế, Xã Phước Lộc
+                  - generic [ref=e190]: 118 km
+                - button "Thôn Bhlô Bền, Xã Sông Kôn 78 km" [ref=e191] [cursor=pointer]:
+                  - generic [ref=e192]: Thôn Bhlô Bền, Xã Sông Kôn
+                  - generic [ref=e197]: 78 km
+                - button "Thôn 2, Xã Trà Don 125 km" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]: Thôn 2, Xã Trà Don
+                  - generic [ref=e204]: 125 km
+                - button "Thôn Tà Lang, Xã Hòa Bắc 42 km" [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206]: Thôn Tà Lang, Xã Hòa Bắc
+                  - generic [ref=e211]: 42 km
+    - contentinfo [ref=e212]: VolunteerPulse (TìnhNguyệnMap) • Cuộc thi Sáng tạo cùng AI 2026 – Thành Đoàn Đà Nẵng & BCH Đoàn Đại học Duy Tân • Nhóm A-002 (Khải Trần Duy, Kỳ Nguyễn Quốc Hưng, Nguyễn Hữu Phát Đạt, Liễu Hiệp Phát)
+  - alert [ref=e213]

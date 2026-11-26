@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --canvas-mist: #f2f4f0;
+  --surface-vellum: #ffffff;
+  --border-subtle: #dce3dd;
+  --ink-truongson: #122b26;
+  --ink-slate: #4a5d58;
+  --accent-youth: #145da0;
+  --signal-laterite: #c84b24;
+  --verified-emerald: #157a5b;
+}
+
+body {
+  background-color: var(--canvas-mist);
+  color: var(--ink-truongson);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-mono-data {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Refined Leaflet map styling */
+.leaflet-container {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background: #e5ece8;
+  z-index: 1;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid var(--border-subtle) !important;
+  box-shadow: 0 4px 16px rgba(18, 43, 38, 0.08) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  color: var(--ink-truongson) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border-bottom-color: var(--border-subtle) !important;
+}
+
+.leaflet-tooltip {
+  background: #122b26;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 8px 24px rgba(18, 43, 38, 0.22);
+}
+
+.leaflet-tooltip-top::before {
+  border-top-color: #122b26;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5d1ca;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9db0a6;
+}
+
+/* Print styles for clean Đoàn Trường PDF export */
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-break-avoid {
+    break-inside: avoid;
+  }
+}

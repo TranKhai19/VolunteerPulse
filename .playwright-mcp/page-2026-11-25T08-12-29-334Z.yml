@@ -1,0 +1,243 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - button "VolunteerPulse TìnhNguyệnMap, Đoàn ĐH Duy Tân" [ref=e5] [cursor=pointer]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: VolunteerPulse
+            - generic [ref=e12]: TìnhNguyệnMap, Đoàn ĐH Duy Tân
+        - navigation "Phân hệ chính" [ref=e13]:
+          - button "Bản đồ chiến dịch" [ref=e14] [cursor=pointer]
+          - button "Phân bổ ngân sách" [active] [ref=e19] [cursor=pointer]
+          - button "Ghép nhân sự" [ref=e23] [cursor=pointer]
+          - button "Xác thực hiện trường" [ref=e30] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e35] [cursor=pointer]
+        - generic [ref=e40]:
+          - generic "Đang kết nối trực tiếp gemini-2.5-flash" [ref=e187]: Gemini trực tiếp
+          - button "Trực tuyến 4G" [ref=e43] [cursor=pointer]
+    - main [ref=e49]:
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - heading "Tối ưu phân bổ ngân sách và quà tặng" [level=1] [ref=e219]
+            - paragraph [ref=e220]: Cân đối nguồn lực giữa các điểm bản vùng sâu và điểm gần trục chính bằng bài toán tối ưu Google OR-Tools kết hợp gom tuyến vận chuyển.
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: Chỉ số công bằng
+              - generic [ref=e224]:
+                - generic [ref=e225]: "86"
+                - generic [ref=e226]: "61"
+            - generic [ref=e228]:
+              - generic [ref=e229]: Tiết kiệm vận chuyển
+              - generic [ref=e230]: 8.2 tr
+            - generic [ref=e232]:
+              - generic [ref=e233]: Tổng lộ trình gom
+              - generic [ref=e234]: 482 km
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - heading "Tham số bài toán" [level=2] [ref=e238]
+              - paragraph [ref=e239]: Kéo thanh trượt để xem phương án chia quà cập nhật ngay lập tức.
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: Ngân sách chiến dịch
+                - generic [ref=e243]: 195.000.000 đ
+              - slider [ref=e244] [cursor=pointer]: "195000000"
+              - generic [ref=e245]:
+                - generic [ref=e246]: 90 tr
+                - generic [ref=e247]: 175 tr
+                - generic [ref=e248]: 260 tr
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - generic [ref=e251]: Ưu tiên bản vùng sâu
+                - generic [ref=e252]: 80%
+              - slider [ref=e253] [cursor=pointer]: "0.8"
+              - generic [ref=e254]:
+                - generic [ref=e255]: Tiết kiệm cước
+                - generic [ref=e256]: Cân bằng
+                - generic [ref=e257]: Công bằng tối đa
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: Đơn giá suất quà hộ
+                - generic [ref=e261]: 300.000 đ
+              - generic [ref=e262]:
+                - generic [ref=e263]: Đơn giá áo ấm trẻ em
+                - generic [ref=e264]: 150.000 đ
+              - generic [ref=e265]:
+                - generic [ref=e266]: Đơn giá túi y tế
+                - generic [ref=e267]: 160.000 đ
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - generic [ref=e270]: Điểm bản tham gia
+                - generic [ref=e271]: 7/7
+              - generic [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]:
+                  - generic [ref=e274]:
+                    - checkbox "Thôn 3 142 km" [checked] [ref=e275]
+                    - generic [ref=e276]: Thôn 3
+                  - generic [ref=e277]: 142 km
+                - generic [ref=e278] [cursor=pointer]:
+                  - generic [ref=e279]:
+                    - checkbox "Điểm trường Tắk Pỏ 134 km" [checked] [ref=e280]
+                    - generic [ref=e281]: Điểm trường Tắk Pỏ
+                  - generic [ref=e282]: 134 km
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]:
+                    - checkbox "Thôn A Rớch 128 km" [checked] [ref=e285]
+                    - generic [ref=e286]: Thôn A Rớch
+                  - generic [ref=e287]: 128 km
+                - generic [ref=e288] [cursor=pointer]:
+                  - generic [ref=e289]:
+                    - checkbox "Thôn Đăk Rế 118 km" [checked] [ref=e290]
+                    - generic [ref=e291]: Thôn Đăk Rế
+                  - generic [ref=e292]: 118 km
+                - generic [ref=e293] [cursor=pointer]:
+                  - generic [ref=e294]:
+                    - checkbox "Thôn Bhlô Bền 78 km" [checked] [ref=e295]
+                    - generic [ref=e296]: Thôn Bhlô Bền
+                  - generic [ref=e297]: 78 km
+                - generic [ref=e298] [cursor=pointer]:
+                  - generic [ref=e299]:
+                    - checkbox "Thôn 2 125 km" [checked] [ref=e300]
+                    - generic [ref=e301]: Thôn 2
+                  - generic [ref=e302]: 125 km
+                - generic [ref=e303] [cursor=pointer]:
+                  - generic [ref=e304]:
+                    - checkbox "Thôn Tà Lang 42 km" [checked] [ref=e305]
+                    - generic [ref=e306]: Thôn Tà Lang
+                  - generic [ref=e307]: 42 km
+            - button "Chạy tối ưu phân bổ" [ref=e308] [cursor=pointer]
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - heading "So sánh tỷ lệ đáp ứng nhu cầu giữa hai phương án" [level=2] [ref=e314]
+                - paragraph [ref=e315]: Phương án tối ưu giới hạn tối đa 100% tại điểm gần đường lớn để bù đắp cho các bản sâu ở Nam Trà My và Tây Giang.
+              - generic [ref=e318]:
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - img "Chia thủ công (%) legend icon" [ref=e322]
+                    - text: Chia thủ công (%)
+                  - listitem [ref=e324]:
+                    - img "Tối ưu OR-Tools (%) legend icon" [ref=e325]
+                    - text: Tối ưu OR-Tools (%)
+                - application [ref=e327]:
+                  - generic [ref=e380]:
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: Thôn Tà Lang
+                      - generic [ref=e384]: Thôn Bhlô Bền
+                      - generic [ref=e386]: Thôn A Rớch
+                      - generic [ref=e388]: Thôn Đăk Rế
+                      - generic [ref=e390]: Thôn 3
+                      - generic [ref=e392]: Tắk Pỏ
+                      - generic [ref=e394]: Thôn 2
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: 0%
+                      - generic [ref=e399]: 40%
+                      - generic [ref=e401]: 80%
+                      - generic [ref=e403]: 120%
+                      - generic [ref=e405]: 145%
+            - generic [ref=e407]:
+              - generic [ref=e408]:
+                - heading "Giải thích phương án từ Gemini AI" [level=3] [ref=e413]
+                - button "Phân tích bằng Gemini AI" [ref=e414] [cursor=pointer]
+              - paragraph [ref=e415]: Phương án tối ưu phân bổ 315 suất quà hộ gia đình, 413 áo ấm trẻ em và 100 túi y tế cho 7 điểm bản. Các điểm khẩn cấp vùng sâu (như Nam Trà My) đạt mức đáp ứng trung bình 100%, trong khi điểm gần đường lớn được giới hạn đúng định mức 100% để không thừa quà. Gom tuyến vận chuyển theo thứ tự tọa độ giúp tiết kiệm 8.2 triệu VNĐ chi phí xe tải 2 cầu.
+              - generic [ref=e416]:
+                - generic [ref=e417]:
+                  - generic [ref=e418]: "Bước 1: Demand Normalizer (LangGraph)"
+                  - generic [ref=e419]: 240 ms
+                  - paragraph [ref=e420]: Chuẩn hóa nhu cầu 7 điểm bản (387 hộ dân, 499 trẻ em) và trọng số địa hình.
+                - generic [ref=e421]:
+                  - generic [ref=e422]: "Bước 2: Resource & Route Optimizer"
+                  - generic [ref=e423]: 310 ms
+                  - paragraph [ref=e424]: Tối ưu hàm mục tiêu công bằng (80% ưu tiên vùng sâu), gom tuyến còn 482 km (giảm 1052 km so với đi rời rạc).
+                - generic [ref=e425]:
+                  - generic [ref=e426]: "Bước 3: Transparency Explainer"
+                  - generic [ref=e427]: 185 ms
+                  - paragraph [ref=e428]: "Đối chiếu với phương án thủ công: loại bỏ tình trạng thừa quà điểm gần đường lớn, nâng chỉ số công bằng từ 61/100 lên 86/100."
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - heading "Bảng phân bổ chi tiết theo thứ tự gom tuyến" [level=3] [ref=e431]
+                - generic [ref=e432]: "Tổng chi: 193.546.000 đ (dự phòng 1.5 tr)"
+              - table [ref=e434]:
+                - rowgroup [ref=e435]:
+                  - row [ref=e436]:
+                    - columnheader "Chặng" [ref=e437]
+                    - columnheader "Điểm bản" [ref=e438]
+                    - columnheader "Suất quà" [ref=e439]
+                    - columnheader "Áo ấm" [ref=e440]
+                    - columnheader "Túi y tế" [ref=e441]
+                    - columnheader "Tổng ngân sách" [ref=e442]
+                    - columnheader "Đáp ứng" [ref=e443]
+                - rowgroup [ref=e444]:
+                  - row [ref=e445]:
+                    - cell "#1" [ref=e446]
+                    - cell "Thôn Tà Lang, Xã Hòa Bắc Hòa Vang, độ khó 4.2/10" [ref=e447]:
+                      - generic [ref=e448]: Thôn Tà Lang, Xã Hòa Bắc
+                      - generic [ref=e449]: Hòa Vang, độ khó 4.2/10
+                    - cell "18/45" [ref=e450]
+                    - cell "21/52" [ref=e451]
+                    - cell "4" [ref=e452]
+                    - cell "10.342.000 đ" [ref=e453]
+                    - cell "40%" [ref=e454]
+                  - row [ref=e456]:
+                    - cell "#2" [ref=e457]
+                    - cell "Thôn Bhlô Bền, Xã Sông Kôn Đông Giang, độ khó 6.8/10" [ref=e458]:
+                      - generic [ref=e459]: Thôn Bhlô Bền, Xã Sông Kôn
+                      - generic [ref=e460]: Đông Giang, độ khó 6.8/10
+                    - cell "35/51" [ref=e461]
+                    - cell "44/64" [ref=e462]
+                    - cell "10" [ref=e463]
+                    - cell "20.788.000 đ" [ref=e464]
+                    - cell "68%" [ref=e465]
+                  - row [ref=e467]:
+                    - cell "#3" [ref=e468]
+                    - cell "Thôn A Rớch, Xã A Xan Tây Giang, độ khó 8.8/10" [ref=e469]:
+                      - generic [ref=e470]: Thôn A Rớch, Xã A Xan
+                      - generic [ref=e471]: Tây Giang, độ khó 8.8/10
+                    - cell "53/62" [ref=e472]
+                    - cell "65/76" [ref=e473]
+                    - cell "17" [ref=e474]
+                    - cell "31.898.000 đ" [ref=e475]
+                    - cell "85%" [ref=e476]
+                  - row [ref=e478]:
+                    - cell "#4" [ref=e479]
+                    - cell "Thôn Đăk Rế, Xã Phước Lộc Phước Sơn, độ khó 8.5/10" [ref=e480]:
+                      - generic [ref=e481]: Thôn Đăk Rế, Xã Phước Lộc
+                      - generic [ref=e482]: Phước Sơn, độ khó 8.5/10
+                    - cell "49/59" [ref=e483]
+                    - cell "59/71" [ref=e484]
+                    - cell "15" [ref=e485]
+                    - cell "29.190.000 đ" [ref=e486]
+                    - cell "83%" [ref=e487]
+                  - row [ref=e489]:
+                    - cell "#5" [ref=e490]
+                    - cell "Thôn 3, Xã Trà Linh Nam Trà My, độ khó 9.6/10" [ref=e491]:
+                      - generic [ref=e492]: Thôn 3, Xã Trà Linh
+                      - generic [ref=e493]: Nam Trà My, độ khó 9.6/10
+                    - cell "68/68" [ref=e494]
+                    - cell "94/94" [ref=e495]
+                    - cell "24" [ref=e496]
+                    - cell "42.516.000 đ" [ref=e497]
+                    - cell "100%" [ref=e498]
+                  - row [ref=e500]:
+                    - cell "#6" [ref=e501]
+                    - cell "Điểm trường Tắk Pỏ, Xã Trà Tập Nam Trà My, độ khó 9.2/10" [ref=e502]:
+                      - generic [ref=e503]: Điểm trường Tắk Pỏ, Xã Trà Tập
+                      - generic [ref=e504]: Nam Trà My, độ khó 9.2/10
+                    - cell "54/54" [ref=e505]
+                    - cell "82/82" [ref=e506]
+                    - cell "18" [ref=e507]
+                    - cell "35.124.000 đ" [ref=e508]
+                    - cell "100%" [ref=e509]
+                  - row [ref=e511]:
+                    - cell "#7" [ref=e512]
+                    - cell "Thôn 2, Xã Trà Don Nam Trà My, độ khó 8.1/10" [ref=e513]:
+                      - generic [ref=e514]: Thôn 2, Xã Trà Don
+                      - generic [ref=e515]: Nam Trà My, độ khó 8.1/10
+                    - cell "38/48" [ref=e516]
+                    - cell "48/60" [ref=e517]
+                    - cell "12" [ref=e518]
+                    - cell "23.688.000 đ" [ref=e519]
+                    - cell "79%" [ref=e520]
+  - alert [ref=e186]
+  - generic [aria-hidden] [ref=e522]: "0"

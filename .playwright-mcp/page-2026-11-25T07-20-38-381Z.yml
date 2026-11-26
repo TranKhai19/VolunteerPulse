@@ -1,0 +1,125 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: VolunteerPulse
+            - generic [ref=e12]: TìnhNguyệnMap
+          - generic [ref=e13]: Chiến dịch Xuân Tình Nguyện Quảng Nam 2026 • Đoàn ĐH Duy Tân
+        - generic [ref=e14]:
+          - button "Trực tuyến 4G" [ref=e15] [cursor=pointer]
+          - generic [ref=e21]: "Mã hồ sơ: A-002"
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - button "Bản đồ chiến dịch" [ref=e24] [cursor=pointer]
+          - button "Tối ưu ngân sách" [ref=e27] [cursor=pointer]
+          - button "Ghép nhân sự AI" [ref=e30] [cursor=pointer]
+          - button "Xác thực hiện trường" [ref=e36] [cursor=pointer]
+          - button "Báo cáo minh bạch" [active] [ref=e40] [cursor=pointer]
+    - main [ref=e44]:
+      - generic [ref=e1029]:
+        - generic [ref=e1030]:
+          - generic [ref=e1031]:
+            - generic [ref=e1032]: Cổng Minh Bạch Dành Cho Nhà Tài Trợ & BCH Đoàn Đại học Duy Tân
+            - heading "Báo cáo Công khai Tài chính – Hiện vật Chiến dịch Xuân Tình Nguyện 2026" [level=2] [ref=e1033]
+            - paragraph [ref=e1034]: Mọi khoản chi đều gắn biên bản hóa đơn PaddleOCR, đếm hiện vật YOLOv11 và tọa độ GPS chống giả mạo.
+          - generic [ref=e1035]:
+            - button "Tải Sao kê CSV" [ref=e1036] [cursor=pointer]
+            - button "Xuất Báo cáo PDF cho Đoàn trường" [ref=e1040] [cursor=pointer]
+        - generic [ref=e1045]:
+          - generic [ref=e1046]:
+            - generic [ref=e1047]: Tổng quỹ tiếp nhận
+            - generic [ref=e1048]: 200.000.000 đ
+            - generic [ref=e1049]: 3 nguồn tài trợ đã đối soát
+          - generic [ref=e1050]:
+            - generic [ref=e1051]: Đã giải ngân (có OCR)
+            - generic [ref=e1052]: 86.750.000 đ
+            - generic [ref=e1053]: 100% có hóa đơn đối chiếu
+          - generic [ref=e1054]:
+            - generic [ref=e1055]: Tồn quỹ dự phòng
+            - generic [ref=e1056]: 113.250.000 đ
+            - generic [ref=e1057]: Dự phòng phát sinh sạt lở
+          - generic [ref=e1058]:
+            - generic [ref=e1059]: Hiệu quả ứng dụng AI
+            - generic [ref=e1060]: < 15 phút
+            - generic [ref=e1061]: Lập kế hoạch (giảm từ ~4 giờ) • Công bằng 86/100
+        - generic [ref=e1062]:
+          - generic [ref=e1063]:
+            - heading "Bảng sao kê thu – chi minh bạch theo thời gian thực" [level=3] [ref=e1064]
+            - generic [ref=e1069]: Đã kiểm duyệt Trưởng đoàn
+          - table [ref=e1074]:
+            - rowgroup [ref=e1075]:
+              - row [ref=e1076]:
+                - columnheader "Ngày" [ref=e1077]
+                - columnheader "Đơn vị / Nhà tài trợ" [ref=e1078]
+                - columnheader "Nội dung & Điểm bản" [ref=e1079]
+                - columnheader "Số tiền" [ref=e1080]
+                - columnheader "Chứng từ" [ref=e1081]
+            - rowgroup [ref=e1082]:
+              - row [ref=e1083]:
+                - cell "10/01/2026" [ref=e1084]
+                - cell "Đoàn Thanh niên – Hội SV Đại học Duy Tân" [ref=e1085]
+                - cell "Kinh phí đối ứng chiến dịch Xuân Tình Nguyện 2026" [ref=e1086]
+                - cell "+85.000.000 đ" [ref=e1088]
+                - cell "Ủy nhiệm chi" [ref=e1089]
+              - row [ref=e1090]:
+                - cell "13/01/2026" [ref=e1091]
+                - cell "Mạnh thường quân & Cựu SV Khoa KHMT – CMU" [ref=e1092]
+                - cell "Đóng góp quỹ Áo Ấm Cho Em – Nam Trà My & Tây Giang" [ref=e1093]
+                - cell "+62.500.000 đ" [ref=e1095]
+                - cell "Ủy nhiệm chi" [ref=e1096]
+              - row [ref=e1097]:
+                - cell "15/01/2026" [ref=e1098]
+                - cell "Doanh nghiệp Công nghệ Đà Nẵng (Tài trợ đồng hành)" [ref=e1099]
+                - cell "Tài trợ túi y tế cơ bản & đèn năng lượng mặt trời" [ref=e1100]
+                - cell "+52.500.000 đ" [ref=e1102]
+                - cell "Ủy nhiệm chi" [ref=e1103]
+              - row [ref=e1104]:
+                - cell "17/01/2026" [ref=e1105]
+                - cell "NPP Nhu yếu phẩm Miền Trung" [ref=e1106]
+                - cell "Mua 176 áo ấm nỉ 2 lớp & 122 suất nhu yếu phẩm (Đã OCR) Thôn 3 Trà Linh & Điểm trường Tắk Pỏ" [ref=e1107]:
+                  - generic [ref=e1108]: Mua 176 áo ấm nỉ 2 lớp & 122 suất nhu yếu phẩm (Đã OCR)
+                  - generic [ref=e1109]: Thôn 3 Trà Linh & Điểm trường Tắk Pỏ
+                - cell "-46.850.000 đ" [ref=e1110]
+                - cell "REP-002" [ref=e1111]
+              - row [ref=e1116]:
+                - cell "18/01/2026" [ref=e1117]
+                - cell "Nhà thuốc Thiện Tâm Đà Nẵng" [ref=e1118]
+                - cell "115 túi y tế sơ cứu vùng cao & thuốc cảm cúm trẻ em 7 điểm bản Quảng Nam – Đà Nẵng" [ref=e1119]:
+                  - generic [ref=e1120]: 115 túi y tế sơ cứu vùng cao & thuốc cảm cúm trẻ em
+                  - generic [ref=e1121]: 7 điểm bản Quảng Nam – Đà Nẵng
+                - cell "-18.400.000 đ" [ref=e1122]
+                - cell "REP-001" [ref=e1123]
+              - row [ref=e1128]:
+                - cell "18/01/2026" [ref=e1129]
+                - cell "Hợp tác xã Vận tải Miền núi Quảng Nam" [ref=e1130]
+                - cell "Thuê xe tải 2 cầu & xe bán tải chở hàng (tiết kiệm 28% nhờ gom tuyến AI) Tuyến ghép Nam Trà My – Phước Sơn – Tây Giang" [ref=e1131]:
+                  - generic [ref=e1132]: Thuê xe tải 2 cầu & xe bán tải chở hàng (tiết kiệm 28% nhờ gom tuyến AI)
+                  - generic [ref=e1133]: Tuyến ghép Nam Trà My – Phước Sơn – Tây Giang
+                - cell "-21.500.000 đ" [ref=e1134]
+                - cell "REP-003" [ref=e1135]
+        - generic [ref=e1140]:
+          - heading "Nhật ký bàn giao hiện vật đã xác thực GPS (3 biên bản công bố)" [level=3] [ref=e1141]
+          - generic [ref=e1142]:
+            - generic [ref=e1143]:
+              - generic [ref=e1144]:
+                - strong [ref=e1145]: Thôn 3, Xã Trà Linh
+                - generic [ref=e1146]: "YOLOv11: 68/68"
+              - generic [ref=e1147]: 15.0219° N, 108.0155° E
+              - paragraph [ref=e1151]: Khớp 100% (68/68 suất quà) theo phương án OR-Tools. Tọa độ EXIF cách tâm Thôn 3 Trà Linh 14m, hợp lệ (không có dấu hiệu Fake GPS).
+            - generic [ref=e1152]:
+              - generic [ref=e1153]:
+                - strong [ref=e1154]: Điểm trường Tắk Pỏ, Xã Trà Tập
+                - generic [ref=e1155]: "YOLOv11: 82/82"
+              - generic [ref=e1156]: 15.0585° N, 108.0741° E
+              - paragraph [ref=e1160]: PaddleOCR trích xuất khớp tổng 46.850.000 VNĐ với sao kê chi ngân sách. Đã qua bước xác nhận chéo của Trưởng đoàn.
+            - generic [ref=e1161]:
+              - generic [ref=e1162]:
+                - strong [ref=e1163]: Thôn Tà Lang, Xã Hòa Bắc
+                - generic [ref=e1164]: "YOLOv11: 45/45"
+              - generic [ref=e1165]: 16.1263° N, 107.9451° E
+              - paragraph [ref=e1169]: Bàn giao đủ 45 suất theo định mức tối ưu AI (tránh dư thừa tại điểm gần trung tâm). Có chữ ký xác nhận của Trưởng thôn.
+    - contentinfo [ref=e212]: VolunteerPulse (TìnhNguyệnMap) • Cuộc thi Sáng tạo cùng AI 2026 – Thành Đoàn Đà Nẵng & BCH Đoàn Đại học Duy Tân • Nhóm A-002 (Khải Trần Duy, Kỳ Nguyễn Quốc Hưng, Nguyễn Hữu Phát Đạt, Liễu Hiệp Phát)
+  - alert [ref=e213]
+  - generic [aria-hidden] [ref=e555]: 120%

@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e228]:
+        - button "VolunteerPulse Đoàn Xã vùng cao & ĐH Duy Tân" [ref=e230] [cursor=pointer]:
+          - generic [ref=e235]:
+            - generic [ref=e236]: VolunteerPulse
+            - generic [ref=e237]: Đoàn Xã vùng cao & ĐH Duy Tân
+        - generic [ref=e238]:
+          - generic [ref=e239]: Vai trò thao tác
+          - radiogroup "Chọn vai trò thao tác" [ref=e240]:
+            - button "Đoàn Xã / Phường" [ref=e241] [cursor=pointer]
+            - button "Đơn vị ĐH Duy Tân" [ref=e244] [cursor=pointer]
+            - button "BCH & Minh bạch" [ref=e247] [cursor=pointer]
+          - paragraph [ref=e250]: Nhận điểm bản, liên quân LCĐ và điều phối
+        - navigation "Điều hướng chính" [ref=e251]:
+          - button "Bản đồ nhu cầu" [ref=e252] [cursor=pointer]
+          - button "Kết nối Đoàn Xã" [ref=e257] [cursor=pointer]
+          - button "Phân bổ ngân sách" [ref=e265] [cursor=pointer]
+          - button "Ghép nhân sự" [ref=e270] [cursor=pointer]
+          - button "Xác thực 2 chiều" [ref=e278] [cursor=pointer]
+          - button "Báo cáo minh bạch" [ref=e284] [cursor=pointer]
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Cơ sở dữ liệu
+            - generic [ref=e297]: Supabase PostGIS
+          - generic [ref=e298]:
+            - generic [ref=e299]: Trợ lý AI
+            - generic [ref=e300]: Gemini trực tiếp
+          - button "Kết nối 4G ổn định" [ref=e302] [cursor=pointer]
+    - main [ref=e84]:
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - heading "Hệ sinh thái kết nối Đoàn Xã và Đơn vị Đoàn ĐH Duy Tân" [level=1] [ref=e312]
+            - paragraph [ref=e313]: Các Đoàn Xã/Phường vùng khó khăn chủ động gửi phiếu nhu cầu; các Liên Chi Đoàn Khoa và CLB tại Đại học Duy Tân nhận phụ trách hoặc ghép liên quân để không xã nào bị bỏ sót.
+          - generic [ref=e314]:
+            - button "Đăng ký Đơn vị Đoàn / Đoàn Xã" [ref=e315] [cursor=pointer]
+            - button "Mở bản đồ vùng trắng" [ref=e317] [cursor=pointer]
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - generic [ref=e323]: Bước 1
+            - heading "Đoàn Xã gửi phiếu nhu cầu" [level=2] [ref=e324]
+            - paragraph [ref=e325]: Đăng ký Đoàn Xã/Phường vùng khó khăn và gửi phiếu nhu cầu kèm tọa độ GPS thực tế trên bản đồ.
+          - generic [ref=e326]:
+            - generic [ref=e327]: Bước 2
+            - heading "LCĐ ĐH Duy Tân nhận hỗ trợ" [level=2] [ref=e328]
+            - paragraph [ref=e329]: Các Liên Chi Đoàn chọn xã vùng trắng để nhận phụ trách chính hoặc ghép liên quân nhiều khoa.
+          - generic [ref=e330]:
+            - generic [ref=e331]: Bước 3
+            - heading "Xác thực 2 chiều và minh bạch" [level=2] [ref=e332]
+            - paragraph [ref=e333]: Đoàn ĐH Duy Tân gửi ảnh trao quà và hóa đơn OCR, Bí thư Đoàn Xã ký xác nhận tiếp nhận đủ.
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - heading "Đoàn Xã / Phường vùng khó khăn" [level=2] [ref=e341]
+              - generic [ref=e342]: 0 đơn vị
+            - paragraph [ref=e343]:
+              - text: Chưa có Đoàn Xã/Phường nào đăng ký. Bấm
+              - strong [ref=e344]: Đăng ký Đơn vị Đoàn / Đoàn Xã
+              - text: để thêm dữ liệu thật.
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - heading "Các đơn vị Đoàn tại Đại học Duy Tân" [level=2] [ref=e352]
+              - generic [ref=e353]: 0 LCĐ / CLB
+            - paragraph [ref=e354]:
+              - text: Chưa có Liên Chi Đoàn / CLB nào đăng ký. Bấm
+              - strong [ref=e355]: Đăng ký Đơn vị Đoàn / Đoàn Xã
+              - text: để thêm các đơn vị ĐH Duy Tân.
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - heading "Sàn kết nối Phiếu nhu cầu & Nhận hỗ trợ liên quân" [level=2] [ref=e364]
+            - generic [ref=e365]: 0 phiếu nhu cầu từ Đoàn Xã, 0 cam kết hỗ trợ
+          - generic [ref=e366]:
+            - paragraph [ref=e367]: Chưa có phiếu nhu cầu nào từ các Đoàn Xã/Phường.
+            - paragraph [ref=e368]:
+              - text: Chuyển sang tab
+              - strong [ref=e369]: Bản đồ chiến dịch
+              - text: và bấm
+              - strong [ref=e370]: Thêm điểm bản / Gửi phiếu nhu cầu
+              - text: để bắt đầu kết nối.
+  - alert [ref=e135]
